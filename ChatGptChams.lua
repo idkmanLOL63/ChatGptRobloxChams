@@ -11,8 +11,8 @@ local function applyHighlight(character)
     local highlight = Instance.new("Highlight")
     highlight.Name = "Highlight" -- Optional, for easier management
     highlight.Adornee = character
-    highlight.FillColor = Color3.fromRGB(255, 0, 0) -- Red fill color
-    highlight.OutlineColor = Color3.fromRGB(0, 0, 139) -- Dark blue outline color
+    highlight.FillColor = Color3.fromRGB(255, 255, 255) -- Red fill color
+    highlight.OutlineColor = Color3.fromRGB(254, 254, 254) -- Dark blue outline color
     highlight.FillTransparency = 0.5 -- Semi-transparent fill (adjust as needed)
     highlight.OutlineTransparency = 0 -- Fully visible outline
     highlight.Parent = character
